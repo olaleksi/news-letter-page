@@ -1,0 +1,125 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(55 56 78);
+    margin-top: 48px;
+   
+}
+
+.sign-up-container{
+    background-color: aliceblue;
+    width: 65%;
+    padding: 30px 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+.sign-up-container .content{
+    line-height: 40px;
+}
+
+.list-items > i > img{
+    
+    margin-right: 10px;
+    height: 15px;
+}
+
+input{
+    width: 94%;
+    padding: 15px 10px;
+    border-radius: 6px;
+    opacity: 0.5;
+    border: 1px solid black;
+    outline: none;
+}
+
+.subscribe-div{
+    margin-top: 10px;
+}
+
+.subscribe-div > button{
+    padding: 20px;
+    background: rgb(35 39 65);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+
+/*.image-container > img{
+    
+    margin-top: -19%;
+}*/
+
+.success-container{
+    width: 25%;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 30px;
+    margin: 0 auto;
+   
+}
+
+.success-container button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(35 39 65);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.success-container p{
+    margin-top: 0;
+    font-size: 15px;
+
+}
+
+.success-container > button:hover, .subscribe-div > button:hover{
+     box-shadow: 0px 0px 6px 3px #ff5e59;
+    background-color: #ff5e59;
+}
+
+span{
+    float: right;
+}
+
+
+
+
+.input-control.success > input {
+    border-color: #09c372;
+}
+
+.input-control.error > input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 0.9rem;
+    height: 13px;
+    
+}
+
+.input-control .success {
+    color: #09c372;
+    font-size: 0.9rem;
+    height: 13px;
+
+}
+
+
+.hidden {
+    display: none;
+}
